@@ -1,0 +1,16 @@
+*.icon-white {color:white}
+*.icon-silver {color:silver}
+*.icon-green {color:green}
+*.icon-dark {color:gray}
+
+
+
+@media screen and (max-width: 768px){
+	div.full-details {display:none}
+}
+@media screen and (max-width: 768px) and (max-width: 1024px) {
+	div.full-details {display:block;}
+}
+@media screen and (max-width: 1024px){
+	
+}

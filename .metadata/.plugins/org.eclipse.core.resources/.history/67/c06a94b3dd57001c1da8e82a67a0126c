@@ -1,0 +1,100 @@
+package com.bidibadi.admin.user;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import com.bidibadi.common.entity.Role;
+import com.bidibadi.common.entity.User;
+
+@Controller
+public class UserController {
+
+	@Autowired
+	private UserSevice service;
+
+	@GetMapping("/users")
+
+	public String listall(Model model) {
+
+		List<User> listUsers = service.listAll();
+		model.addAttribute("userlist", listUsers);
+
+		return "users";
+
+	}
+
+	@GetMapping("/users/new")
+
+	public String newUser(Model model) {
+
+		User user = new User();
+		user.setEnabled(true);
+
+		List<Role> listRoles = service.listRepo();
+		model.addAttribute("user", user);
+		model.addAttribute("listRoles", listRoles);
+		model.addAttribute("pageTitle", "Create New User");
+
+		return "user_form";
+
+	}
+
+	@PostMapping("/users/save")
+
+	public String saveUser(User user, RedirectAttributes rediredirecrAttributes) {
+		System.err.println(user);
+		System.err.println(user.getId());
+		service.save(user);
+
+		rediredirecrAttributes.addFlashAttribute("message", "the kullanıcı başarılı birşekilde kaydedildi");
+		return "redirect:/users";
+
+	}
+
+	@GetMapping("/users/edit/{id}")
+	public String editUser(@PathVariable(name = "id") Integer id, Model model,
+			RedirectAttributes rediredirecrAttributes) {
+
+		try {
+			User user = service.get(id);
+			List<Role> listRoles = service.listRepo();
+			model.addAttribute("user", user);
+			model.addAttribute("listRoles", listRoles);
+
+			model.addAttribute("pageTitle", "Update User : " + id);
+
+			return "user_form";
+
+		} catch (UserNotFoundException e) {
+			// TODO Auto-generated catch block
+			rediredirecrAttributes.addFlashAttribute("message", e.getMessage());
+			return "redirect:/users";
+		}
+
+	}
+
+	@GetMapping("/users/delete/{id}")
+
+	public String deleteUser(@PathVariable(name = "id") Integer id, Model model, RedirectAttributes redirectAttributes)
+
+	{
+		try {
+			service.delete(id);
+			redirectAttributes.addFlashAttribute("message", "Kullanıcı id: " + id + " Silinmiştir");
+
+		} catch (UserNotFoundException e) {
+			// TODO Auto-generated catch block
+			redirectAttributes.addFlashAttribute("message", e.getMessage());
+
+		}
+		return "redirect:/users";
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.bidibadi.admin.user;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletResponse;
+
+import com.bidibadi.common.entity.User;
+
+public class UserCsvExporter {
+
+	
+	
+	
+	
+	public void export(List<User> listusers,HttpServletResponse response) {
+		
+		
+		dataForma
+		
+	}
+}
