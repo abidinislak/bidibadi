@@ -34,12 +34,12 @@
 				<p class="text-danger">
 					[[${session.SPRING_SECURITY_LAST_EXCEPTION.message}]]</p>
 			</div>
-<div  th:if="${param.logout}" >
+			<div th:if="${param.logout}">
 
 
-<p  class="text-warning" > Sistemden Çıkış Yaptınız....  </p>
+				<p class="text-warning">Sistemden Çıkış Yaptınız....</p>
 
-</div>
+			</div>
 
 			<div class="border border-secondary rounded p-3">
 
@@ -60,7 +60,12 @@
 
 				</p>
 
-
+				<p>
+				
+				<input  type="checkbox"   name="remember-me"  />Beni hatırla  
+				
+				
+				</p>
 				<p>
 					<input type="submit" value="Login" class="btn btn-primary">
 

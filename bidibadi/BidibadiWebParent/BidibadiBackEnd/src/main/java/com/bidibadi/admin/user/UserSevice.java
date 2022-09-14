@@ -30,6 +30,12 @@ public class UserSevice {
 	@Autowired
 	private PasswordEncoder passwordsEncoder;
 
+	public User getByEmail(String email) {
+
+		return repo.getUserByEmail(email);
+
+	}
+
 	public List<User> listAll() {
 
 		return (List<User>) repo.findAll();
