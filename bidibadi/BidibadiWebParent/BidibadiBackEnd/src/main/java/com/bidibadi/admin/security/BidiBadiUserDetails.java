@@ -30,6 +30,7 @@ public class BidiBadiUserDetails implements UserDetails {
 		for (Role role : roles) {
 
 			authories.add(new SimpleGrantedAuthority(role.getName()));
+//			authories.add(new SimpleGrantedAuthority(role.getDescription()));
 
 		}
 
@@ -75,6 +76,18 @@ public class BidiBadiUserDetails implements UserDetails {
 	public String getFullName() {
 
 		return this.user.getFirstname() + "   " + this.user.getLastname();
+	}
+
+	public void setLastName(String lastName) {
+
+		this.user.setLastname(lastName);
+
+	}
+
+	public void setFirstName(String FirstName) {
+
+		this.user.setLastname(FirstName);
+
 	}
 
 }

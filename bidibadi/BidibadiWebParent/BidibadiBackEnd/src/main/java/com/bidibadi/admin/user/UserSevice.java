@@ -91,6 +91,25 @@ public class UserSevice {
 
 	}
 
+	public User updateAccount(User userInform) {
+
+		User userInDb = repo.findById(userInform.getId()).get();
+
+		if (!userInform.getPassword().isEmpty()) {
+
+			userInDb.setPassword(userInform.getPassword());
+			encodePassword(userInDb);
+		}
+
+		if (userInform.getPhotos() != null) {
+			userInDb.setPhotos(userInform.getPhotos());
+		}
+		userInDb.setFirstname(userInform.getFirstname());
+		userInDb.setLastname(userInform.getLastname());
+
+		return repo.save(userInDb);
+	}
+
 	private void encodePassword(User user) {
 		String encodedPassword = passwordsEncoder.encode(user.getPassword());
 
