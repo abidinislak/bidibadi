@@ -7,55 +7,64 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.multipart.MultipartFile;
 
-public class FileUploadUtil {
+public class FileUploadUtil
+	{
 
-	public static void saveFile(String uploadDir, String fileName, MultipartFile multipartFile) throws IOException {
+		private static final Logger LOGGER = LoggerFactory.getLogger(FileUploadUtil.class);
 
-		Path upLoadPath = Paths.get(uploadDir);
+		public static void saveFile(String uploadDir, String fileName, MultipartFile multipartFile) throws IOException {
 
-		if (!Files.exists(upLoadPath)) {
+			Path upLoadPath = Paths.get(uploadDir);
 
-			Files.createDirectories(upLoadPath);
+			if (!Files.exists(upLoadPath)) {
+
+				Files.createDirectories(upLoadPath);
+
+			}
+
+			try (InputStream inputStream = multipartFile.getInputStream()) {
+				Path filePath = upLoadPath.resolve(fileName);
+				Files.copy(inputStream, filePath, StandardCopyOption.REPLACE_EXISTING);
+			}
+
+			catch (IOException ex) {
+				throw new IOException("uupsss. Kopyalanırkenhata oluştu   : " + fileName, ex);
+
+			}
 
 		}
 
-		try (InputStream inputStream = multipartFile.getInputStream()) {
-			Path filePath = upLoadPath.resolve(fileName);
-			Files.copy(inputStream, filePath, StandardCopyOption.REPLACE_EXISTING);
-		}
+		public static void cleanDir(String dir) {
+			Path dirPAth = Paths.get(dir);
 
-		catch (IOException ex) {
-			throw new IOException("uupsss. Kopyalanırkenhata oluştu   : " + fileName, ex);
+			try {
+				Files.list(dirPAth).forEach(file -> {
 
-		}
+					if (!Files.isDirectory(file)) {
 
-	}
+						try {
+							Files.delete(file);
 
-	public static void cleanDir(String dir) {
-		Path dirPAth = Paths.get(dir);
+						} catch (Exception e) {
 
-		try {
-			Files.list(dirPAth).forEach(file -> {
+							LOGGER.error("silme İşlemiBaşarısız" + file);
+							System.err.println("" + file);
 
-				if (!Files.isDirectory(file)) {
-
-					try {
-						Files.delete(file);
-
-					} catch (Exception e) {
-						System.err.println("silme İşlemiBaşarısız" + file);
+						}
 
 					}
 
-				}
+				});
 
-			});
+			} catch (IOException e) {
 
-		} catch (IOException e) {
-			System.err.println("BuKlasoruBulamadi");
+				LOGGER.error("BuKlasoruBulamadi" + dirPAth);
+				System.err.println("BuKlasoruBulamadi");
+			}
 		}
-	}
 
-}
+	}

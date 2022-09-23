@@ -36,28 +36,24 @@
 						class="nav-link" th:href=" @{/users} "> Kullanıcılar </a></li>
 
 
-					<th:block sec:authorize="hasAnyAuthority('Admin','Editor')">
-
-						<li class="nav-item"><a class="nav-link"
+				<th:block sec:authorize="hasAnyAuthority('Admin','Editor')">
+						<li class="nav-item"   ><a class="nav-link"
 							th:href=" @{/categories} "> Kategoriler </a></li>
 
+				
 					</th:block>
 
-
-					<th:block sec:authorize="hasAnyAuthority('Admin','Editor')">
+					
 						<li class="nav-item"><a class="nav-link"
 							th:href=" @{/brands} "> Markalar </a></li>
 
 
-					</th:block>
+				
 
-					<th:block
-						sec:authorize="hasAnyAuthority('Admin','Editor','Salesperson')">
 						<li class="nav-item"><a class="nav-link"
 							th:href=" @{/products} "> Ürünler </a></li>
 
 
-					</th:block>
 					<th:block sec:authorize="hasAnyAuthority('Admin','Salesperson')">
 						<li class="nav-item"><a class="nav-link"
 							th:href=" @{/customers} "> Müşteriler </a></li>

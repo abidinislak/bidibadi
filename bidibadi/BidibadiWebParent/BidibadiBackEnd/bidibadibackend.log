@@ -1,0 +1,95 @@
+2022-09-21 03:39:22.271  INFO 19224 --- [restartedMain] c.b.admin.BidibadiBackEndApplication     : Starting BidibadiBackEndApplication using Java 15.0.2 on relax-B450M-S2H with PID 19224 (/home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/target/classes started by relax in /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd)
+2022-09-21 03:39:22.272  INFO 19224 --- [restartedMain] c.b.admin.BidibadiBackEndApplication     : No active profile set, falling back to default profiles: default
+2022-09-21 03:39:22.306  INFO 19224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 03:39:22.306  INFO 19224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 03:39:22.745  INFO 19224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 03:39:22.777  INFO 19224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+2022-09-21 03:39:23.119  INFO 19224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-21 03:39:23.125  INFO 19224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-21 03:39:23.125  INFO 19224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-09-21 03:39:23.174  INFO 19224 --- [restartedMain] o.a.c.c.C.[.[.[/BidiBadiAdmin]           : Initializing Spring embedded WebApplicationContext
+2022-09-21 03:39:23.174  INFO 19224 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 868 ms
+2022-09-21 03:39:23.280  INFO 19224 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-21 03:39:23.322  INFO 19224 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-09-21 03:39:23.420  INFO 19224 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-21 03:39:23.478  INFO 19224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-21 03:39:23.719  INFO 19224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-21 03:39:23.730  INFO 19224 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-21 03:39:24.150  INFO 19224 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 03:39:24.157  INFO 19224 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 03:39:24.184  WARN 19224 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 03:39:24.513  INFO 19224 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-09-21 03:39:24.514  INFO 19224 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2022-09-21 03:39:24.514  INFO 19224 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2022-09-21 03:39:24.530  INFO 19224 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1718c25b, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a055f3d, org.springframework.security.web.header.HeaderWriterFilter@7320c787, org.springframework.security.web.csrf.CsrfFilter@f85b795, org.springframework.security.web.authentication.logout.LogoutFilter@2f635f58, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1aaae314, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71119cfb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d8f5de1, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@4cf55e12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ecc454a, org.springframework.security.web.session.SessionManagementFilter@1a2a7e00, org.springframework.security.web.access.ExceptionTranslationFilter@2f6c53af, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b7528a3]
+2022-09-21 03:39:24.643  INFO 19224 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-21 03:39:24.899  INFO 19224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-21 03:39:24.922  INFO 19224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/BidiBadiAdmin'
+2022-09-21 03:39:24.928  INFO 19224 --- [restartedMain] c.b.admin.BidibadiBackEndApplication     : Started BidibadiBackEndApplication in 2.928 seconds (JVM running for 3.497)
+2022-09-21 03:40:09.259  INFO 19224 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/BidiBadiAdmin]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 03:40:09.259  INFO 19224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-21 03:40:09.260  INFO 19224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-21 03:40:42.852 ERROR 19224 --- [http-nio-8080-exec-1] com.bidibadi.admin.FileUploadUtil        : Klasör llistelemebaşarısızuser-photos/26
+2022-09-21 03:41:12.478  INFO 19224 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 03:41:12.480  INFO 19224 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-21 03:41:12.484  INFO 19224 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-21 03:41:12.543  INFO 19224 --- [restartedMain] c.b.admin.BidibadiBackEndApplication     : Starting BidibadiBackEndApplication using Java 15.0.2 on relax-B450M-S2H with PID 19224 (/home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/target/classes started by relax in /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd)
+2022-09-21 03:41:12.543  INFO 19224 --- [restartedMain] c.b.admin.BidibadiBackEndApplication     : No active profile set, falling back to default profiles: default
+2022-09-21 03:41:12.618  INFO 19224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 03:41:12.622  INFO 19224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+2022-09-21 03:41:12.681  INFO 19224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-21 03:41:12.682  INFO 19224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-21 03:41:12.682  INFO 19224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-09-21 03:41:12.690  INFO 19224 --- [restartedMain] o.a.c.c.C.[.[.[/BidiBadiAdmin]           : Initializing Spring embedded WebApplicationContext
+2022-09-21 03:41:12.690  INFO 19224 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 145 ms
+2022-09-21 03:41:12.703  WARN 19224 --- [restartedMain] o.a.c.c.C.[.[.[/BidiBadiAdmin]           : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [C2AF8B1AA6B36066CB2360DE83F39FFA]
+2022-09-21 03:41:12.723  INFO 19224 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-21 03:41:12.725  INFO 19224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-09-21 03:41:12.740  INFO 19224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-09-21 03:41:12.740  INFO 19224 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-21 03:41:12.791  INFO 19224 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 03:41:12.791  INFO 19224 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 03:41:12.806  WARN 19224 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 03:41:12.859  INFO 19224 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-09-21 03:41:12.859  INFO 19224 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2022-09-21 03:41:12.859  INFO 19224 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2022-09-21 03:41:12.864  INFO 19224 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d53a9b5, org.springframework.security.web.context.SecurityContextPersistenceFilter@ee28bef, org.springframework.security.web.header.HeaderWriterFilter@5740805e, org.springframework.security.web.csrf.CsrfFilter@702828ad, org.springframework.security.web.authentication.logout.LogoutFilter@2f2fa8a0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@37fb6aa0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c6260ad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ff3470f, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2029e2ab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fe2dc4b, org.springframework.security.web.session.SessionManagementFilter@3fbea1f5, org.springframework.security.web.access.ExceptionTranslationFilter@21e07856, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2fadabc7]
+2022-09-21 03:41:12.899  INFO 19224 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-21 03:41:13.047  INFO 19224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-21 03:41:13.054  INFO 19224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/BidiBadiAdmin'
+2022-09-21 03:41:13.057  INFO 19224 --- [restartedMain] c.b.admin.BidibadiBackEndApplication     : Started BidibadiBackEndApplication in 0.534 seconds (JVM running for 111.626)
+2022-09-21 03:41:13.058  INFO 19224 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-21 03:41:13.062  INFO 19224 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 03:41:13.063  INFO 19224 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-09-21 03:41:13.065  INFO 19224 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-09-21 03:41:14.333  INFO 20173 --- [restartedMain] c.b.admin.BidibadiBackEndApplication     : Starting BidibadiBackEndApplication using Java 15.0.2 on relax-B450M-S2H with PID 20173 (/home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/target/classes started by relax in /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd)
+2022-09-21 03:41:14.334  INFO 20173 --- [restartedMain] c.b.admin.BidibadiBackEndApplication     : No active profile set, falling back to default profiles: default
+2022-09-21 03:41:14.359  INFO 20173 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 03:41:14.360  INFO 20173 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 03:41:14.702  INFO 20173 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 03:41:14.728  INFO 20173 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2022-09-21 03:41:15.013  INFO 20173 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-21 03:41:15.018  INFO 20173 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-21 03:41:15.018  INFO 20173 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-09-21 03:41:15.059  INFO 20173 --- [restartedMain] o.a.c.c.C.[.[.[/BidiBadiAdmin]           : Initializing Spring embedded WebApplicationContext
+2022-09-21 03:41:15.059  INFO 20173 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 699 ms
+2022-09-21 03:41:15.154  INFO 20173 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-21 03:41:15.175  INFO 20173 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-09-21 03:41:15.232  INFO 20173 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-21 03:41:15.275  INFO 20173 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-21 03:41:15.493  INFO 20173 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-21 03:41:15.501  INFO 20173 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-21 03:41:15.861  INFO 20173 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 03:41:15.867  INFO 20173 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 03:41:15.895  WARN 20173 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 03:41:16.192  INFO 20173 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-09-21 03:41:16.193  INFO 20173 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2022-09-21 03:41:16.193  INFO 20173 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2022-09-21 03:41:16.210  INFO 20173 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c9d621, org.springframework.security.web.context.SecurityContextPersistenceFilter@232cf8e1, org.springframework.security.web.header.HeaderWriterFilter@65cc36e6, org.springframework.security.web.csrf.CsrfFilter@1a64e212, org.springframework.security.web.authentication.logout.LogoutFilter@608c10ff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@9fc75d4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b8ab1e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7856dc49, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@55be47d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ea6bc6c, org.springframework.security.web.session.SessionManagementFilter@d9f0e4d, org.springframework.security.web.access.ExceptionTranslationFilter@ac286d6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@183cc24c]
+2022-09-21 03:41:16.310  INFO 20173 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-21 03:41:16.533  INFO 20173 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-21 03:41:16.552  INFO 20173 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/BidiBadiAdmin'
+2022-09-21 03:41:16.559  INFO 20173 --- [restartedMain] c.b.admin.BidibadiBackEndApplication     : Started BidibadiBackEndApplication in 2.434 seconds (JVM running for 2.915)
+2022-09-21 03:44:40.231  INFO 20173 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 03:44:40.233  INFO 20173 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-21 03:44:40.241  INFO 20173 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

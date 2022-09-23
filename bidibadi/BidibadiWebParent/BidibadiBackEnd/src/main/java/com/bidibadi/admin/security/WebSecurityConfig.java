@@ -14,50 +14,52 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 @Configuration
 @EnableWebSecurity
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter
+	{
 
-	@Override
-	@Bean
-	public UserDetailsService userDetailsService() {
-		// TODO Auto-generated method stub
-		return new BidiBadiUserDetailsService();
+		@Override
+		@Bean
+		public UserDetailsService userDetailsService() {
+			// TODO Auto-generated method stub
+			return new BidiBadiUserDetailsService();
+		}
+
+		public DaoAuthenticationProvider authenticationProvider() {
+
+			DaoAuthenticationProvider authenticationProvider = new DaoAuthenticationProvider();
+			authenticationProvider.setUserDetailsService(userDetailsService());
+			authenticationProvider.setPasswordEncoder(PasswordEncoder());
+
+			return authenticationProvider;
+
+		}
+
+		@Override
+		protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+			auth.authenticationProvider(authenticationProvider());
+		}
+
+		@Bean
+		public PasswordEncoder PasswordEncoder() {
+
+			return new BCryptPasswordEncoder();
+		}
+
+		@Override
+		protected void configure(HttpSecurity http) throws Exception {
+
+			http.authorizeRequests().antMatchers("/users/**").hasAnyAuthority("Admin").antMatchers("/categories/**")
+					.hasAnyAuthority("Admin", "Editor").anyRequest().authenticated().and().formLogin()
+					.loginPage("/login").usernameParameter("email").permitAll().and().logout().permitAll().and()
+					.rememberMe().key("abcdef_123456789").tokenValiditySeconds(7 * 24 * 60 * 60);
+
+		}
+
+		@Override
+		public void configure(WebSecurity web) throws Exception {
+			// TODO Auto-generated method stub
+			web.ignoring().antMatchers("/images/**", "/js/**", "/webjars/**");
+
+		}
+
 	}
-
-	public DaoAuthenticationProvider authenticationProvider() {
-
-		DaoAuthenticationProvider authenticationProvider = new DaoAuthenticationProvider();
-		authenticationProvider.setUserDetailsService(userDetailsService());
-		authenticationProvider.setPasswordEncoder(PasswordEncoder());
-
-		return authenticationProvider;
-
-	}
-
-	@Override
-	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-		auth.authenticationProvider(authenticationProvider());
-	}
-
-	@Bean
-	public PasswordEncoder PasswordEncoder() {
-
-		return new BCryptPasswordEncoder();
-	}
-
-	@Override
-	protected void configure(HttpSecurity http) throws Exception {
-
-		http.authorizeRequests().antMatchers("/users/**").hasAnyAuthority("Admin").anyRequest().authenticated().and()
-				.formLogin().loginPage("/login").usernameParameter("email").permitAll().and().logout().permitAll().and()
-				.rememberMe().key("abcdef_123456789").tokenValiditySeconds(7 * 24 * 60 * 60);
-
-	}
-
-	@Override
-	public void configure(WebSecurity web) throws Exception {
-		// TODO Auto-generated method stub
-		web.ignoring().antMatchers("/images/**", "/js/**", "/webjars/**");
-
-	}
-
-}
