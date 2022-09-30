@@ -1,244 +1,182 @@
 <!DOCTYPE html>
-<html  xmlns:th="http://www.thymeLeaf.org" >
-
-<head  th:replace="fragments :: page_head(${pageTitle})"   />
-
+<html xmlns:th="http://www.thymeLeaf.org">
+<head th:replace="fragments :: page_head(${pageTitle})" />
 <body>
-
 	<div class="container-fluid">
-
-
-<div th:replace ="navigation :: menu" ></div>
-
-
+		<div th:replace="navigation :: menu"></div>
 		<div>
-
 			<h1>Manage Users - [[${pageTitle}]]</h1>
-
 		</div>
-
-
-		<form th:action="@{/users/save}" method="post"
+		<form
+			th:action="@{/categories/save}"
+			method="post"
 			enctype="multipart/form-data"
-			style="max-width: 700px; margin: 0 auto" th:object="${user}"
-			onsubmit="return checkEmailUnique(this);">
-			<input type="hidden" th:field="*{id}" />
+			style="max-width: 500px; margin: 0 auto"
+			th:object="${category}"
+			onsubmit="return checkUnique(this)"
+		>
+			<input
+				type="hidden"
+				th:field="*{id}"
+			/>
 			<div class="border border-secondary rounded  p-3">
 				<div class="form-group row">
-
-					<label class="col-sm-4 col-form-label"> Email</label>
+					<label class="col-sm-4 col-form-label"> Name</label>
 					<div class="col-sm-8">
-
-						<input type="email" th:field="*{email}" maxlength="128" required
-							minlength="8" class="form-control">
+						<input
+							type="text"
+							th:field="*{name}"
+							maxlength="128"
+							required
+							minlength="8"
+							class="form-control"
+						>
 					</div>
 				</div>
-
-
 				<div class="form-group row">
-
-					<label class="col-sm-4 col-form-label"> İsim</label>
+					<label class="col-sm-4 col-form-label"> Alias</label>
 					<div class="col-sm-8">
-
-						<input type="text" th:field="*{firstname}" maxlength="45" required
-							minlength="2" class="form-control">
+						<input
+							type="text"
+							th:field="*{alias}"
+							maxlength="45"
+							required
+							minlength="2"
+							class="form-control"
+						>
 					</div>
 				</div>
-
 				<div class="form-group row">
-
-					<label class="col-sm-4 col-form-label"> Soy İsim</label>
+					<label class="col-sm-4 col-form-label">Parent Category</label>
 					<div class="col-sm-8">
-
-						<input type="text" th:field="*{lastname}" maxlength="45" required
-							minlength="2" class="form-control">
+						<select
+							class="form-control"
+							th:field="*{parent}"
+						>
+							<option value="0">[no parent]</option>
+							<th:block th:each="cat : ${listCatgeories}">
+								<option th:value="${cat.id}">[[${cat.name}]]</option>
+							</th:block>
+						</select>
 					</div>
 				</div>
-
-
 				<div class="form-group row">
-
-					<label class="col-sm-4 col-form-label">Parola</label>
-					<div class="col-sm-8">
-
-						<input type="password" th:if="${user.id == null} "
-							th:field="*{password}" maxlength="20" required minlength="8"
-							class="form-control"> <input type="password"
-							th:if="${user.id != null} " th:field="*{password}" maxlength="20"
-							minlength="8" class="form-control">
-					</div>
-				</div>
-
-
-
-				<div class="form-group row">
-
-					<label class="col-sm-4 col-form-label">Roles</label>
-					<div class="col-sm-8">
-
-
-						<th:block th:each="role : ${listRoles}">
-
-							<input type="checkbox" th:field="*{roles}" class="m-2"
-								th:text="${role.name}" th:value="${role.id}">
-
-							- <small>[[${role.description}]]</small>
-
-							<br />
-
-
-						</th:block>
-
-
-
-
-
-
-
-
-
-
-
-					</div>
-				</div>
-
-				<div class="form-group row">
-
-					<label class="col-sm-4 col-form-label"> Aktif mi ?</label>
-					<div class="col-sm-8">
-
-
-						<input type="checkbox" th:field="*{enabled}" class="form-control">
-
-
-
-					</div>
-				</div>
-
-
-
-				<div class="form-group row">
-
 					<label class="col-sm-4 col-form-label"> Fotograf</label>
 					<div class="col-sm-8">
-
-						<input type="hidden" th:field="*{photos}" /> <input type="file"
-							name="image" class="mb-2" id="fileImage"
-							accept="image/png, image/jpeg"> <img class="img-fluid"
-							id="thumbnail" alt="Photos preview"
-							th:src="@{${user.photosImagePath}}" />
-
+						<input
+							type="hidden"
+							th:field="*{image}"
+						/> <input
+							type="file"
+							name="fileImage"
+							class="mb-2"
+							id="fileImage"
+							accept="image/png, image/jpeg"
+						>
+						<div class="mt-2">
+							<img
+								class="img-fluid"
+								id="thumbnail"
+								alt="Photos preview"
+								th:src="@{/images/category_priview.png}"
+							/>
+						</div>
 					</div>
 				</div>
-
-
-
-
-
 				<div class="text-center">
-
-					<input type="submit" value="Kaydet" class="btn btn-primary m-3" />
-					<input type="button" value="Vazgeç" class="btn btn-secondary"
-						id="buttonCancel" />
-
+					<input
+						type="submit"
+						value="Kaydet"
+						class="btn btn-primary m-3"
+					/> <input
+						type="button"
+						value="Vazgeç"
+						class="btn btn-secondary"
+						id="buttonCancel"
+					/>
 				</div>
-
-
 			</div>
-
 		</form>
-
-		<div class="modal fade  text-center" id="modalDialog">
+		<div
+			class="modal fade  text-center"
+			id="modalDialog"
+		>
 			<div class="modal-dialog">
 				<div class="modal-content">
-
 					<div class="modal-header">
-
-
-						<h4 class="modal-title" id="modalTitle">Dikkat</h4>
-						<button type="button" class="close" data-dismiss="modal">&times</button>
+						<h4
+							class="modal-title"
+							id="modalTitle"
+						>Dikkat</h4>
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+						>&times</button>
 					</div>
-
 					<div class="modal-body">
-
-
-
-
 						<span id="modalBody"> </span>
 					</div>
-
-
 					<div class="modal-footer">
-
-
-						<button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
-
-
+						<button
+							type="button"
+							class="btn btn-danger"
+							data-dismiss="modal"
+						>close</button>
 					</div>
-
-
-
-
 				</div>
-
 			</div>
-
 		</div>
-	<div th:replace ="fragments :: footer" ></div>
-
-		
+		<div th:replace="modal_fragmnets :: modal_dialog"></div>
+		<div th:replace="fragments :: footer"></div>
 	</div>
 </body>
-
 <script type="text/javascript">
-	moduleURL = "[[@{/users}]]";
+	moduleURL = "[[@{/categories}]]";
 
-	
-	function checkEmailUnique(form) {
-		url = "[[@{/users/check_email}]]";
-		userEmail = $("#email").val();
-		userId = $("#id").val();
+	function checkUnique(form) {
+
+		
+
+		catId = $("#id").val();
+		catname = $("#name").val();
+		catAlias = $("#alias").val();
 		csrfValue = $("input[name='_csrf']").val();
 
+		url = "[[@{/categories/check_unique}]]";
+
 		params = {
-			id : userId,
-			email : userEmail,
+			id : catId,
+			name : catname,
+			alias : catAlias,
 			_csrf : csrfValue
-		};
+		},
 
-		$
-				.post(
-						url,
-						params,
-						function(response) {
-							if (response == "OK") {
+		$.post(url, params, function(response) {
+			if (response == "ok") {
 
-								form.submit();
-							} else if (response == "Duplicated") {
+				form.submit();
+			} else if (response == "DuplicatedName") {
 
-								showModalDialog("Dikkat",
-										"UUOOPPSS...  Sanırım bu email kullanılmaktadır : "
-												+ userEmail);
-							} else {
-								showModalDialog("Hata",
-										"UUOOPPSS...  sunucudan kaynaklı bilinmeyen hata");
-							}
-						}).fail(function() {
-					showModalDialog("Hata", "Sunucuya baglantı hatası");
-				});
+				showWarningModal("dupilcated name"+catname);
+			} else if (response == "DuplicateAlias") {
+
+				showWarningModal("dupilcated alias"+catAlias);
+			}else {
+				
+				showErrorModal("UUOOPPSS...  sunucudan kaynaklı bilinmeyen hata");
+
+			}
+
+		}).fail(function() {
+			showErrorModal("UUOOPPSS...  sunucudan kaynaklı bilinmeyen hata");
+		});
 
 		return false;
 	}
-
-	function showModalDialog(title, message) {
-
-		$("#modalTitle").text(title);
-		$("#modalBody").text(message);
-
-		$("#modalDialog").modal();
-
-	}
 </script>
-<script type="text/javascript"   th:src="@{/js/common_form.js}"  ></script>
-
+<script
+	type="text/javascript"
+	th:src="@{/js/common_form.js}"
+></script>
 </html>

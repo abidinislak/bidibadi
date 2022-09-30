@@ -12,6 +12,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 @Entity
 @Table(name = "category")
@@ -83,6 +84,13 @@ public class Category {
 		return parent;
 	}
 
+	public Category(Integer id, String name, String alias) {
+
+		this.id = id;
+		this.name = name;
+		this.alias = alias;
+	}
+
 	public void setParent(Category parent) {
 		this.parent = parent;
 	}
@@ -114,6 +122,56 @@ public class Category {
 
 		this(name);
 		this.parent = parent;
+	}
+
+	public static Category copyFull(Category category) {
+
+		Category copyCategory = new Category();
+		copyCategory.setId(category.getId());
+		copyCategory.setName(category.getName());
+		copyCategory.setEnabled(category.isEnabled());
+		copyCategory.setAlias(category.getAlias());
+		copyCategory.setImage(category.getImage());
+		return copyCategory;
+	}
+
+	public static Category copyFull(Category category, String name) {
+
+		Category copyCategory = copyFull(category);
+
+		copyCategory.setName(name);
+
+		return copyCategory;
+	}
+
+	public static Category copyIdAndName(Category category) {
+
+		Category copyCategory = new Category();
+		copyCategory.setId(category.getId());
+		copyCategory.setName(category.getName());
+		return copyCategory;
+
+	}
+
+	public static Category copyIdAndName(Integer id, String name) {
+
+		Category copyCategory = new Category();
+		copyCategory.setId(id);
+		copyCategory.setName(name);
+		return copyCategory;
+
+	}
+
+	@Transient
+	public String getImagePAth() {
+		return "/category-images/" + this.id + "/" + this.image;
+
+	}
+
+	public String checkUnique(Integer id, String name, String alias) {
+
+		return "";
+
 	}
 
 }

@@ -1,0 +1,8 @@
+package com.bidibadi.admin.category.controller;
+
+import org.junit.jupiter.api.extension.ExtendWith;
+
+
+public class CategoryServiceTest {
+
+}

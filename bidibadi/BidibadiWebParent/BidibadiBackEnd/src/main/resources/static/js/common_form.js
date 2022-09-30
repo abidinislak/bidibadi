@@ -5,8 +5,8 @@ $(document).ready(function() {
 
 			fileSize = this.files[0].size;
 
-			if (fileSize > 1048576) {
-				this.setCustomValidity("1 mb dan kucuk fotoyuklemelisiniz");
+			if (fileSize > 102400) {
+				this.setCustomValidity("100kb mb dan kucuk fotoyuklemelisiniz");
 				this.reportValidity();
 			}
 
@@ -26,4 +26,25 @@ $(document).ready(function() {
 		};
 		reader.readAsDataURL(file);
 
+	}
+	function showModalDialog(title, message) {
+		$("#modalTitle").text(title);
+		$("#modalBody").text(message);
+		$("#modalDialog").modal();
+
+	}
+	
+	function showErrorModal(message){
+		
+		showModalDialog("Error",message);
+		
+		
+	}
+	
+	
+	function showWarningModal(message){
+		
+		showModalDialog("Warning",message);
+		
+		
 	}

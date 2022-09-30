@@ -1,0 +1,65 @@
+package com.bidibadi.admin.category.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bidibadi.admin.category.CategoryRepository;
+import com.bidibadi.common.entity.Category;
+
+@Service
+public class CategoryService {
+
+	@Autowired
+	private CategoryRepository repo;
+
+	public List<Category> listAll() {
+
+		return (List<Category>) repo.findAll();
+	}
+
+	public List<Category> listCategoriesUsedInForm() {
+
+		List<Category> CategroiesUsedInFrom = new ArrayList<>();
+
+		Iterable<Category> categoriesIndb = repo.findAll();
+
+		for (Category catgeory : categoriesIndb) {
+			if (catgeory.getParent() == null) {
+				CategroiesUsedInFrom.add(new Category(catgeory.getName()));
+
+				Set<Category> children = catgeory.getChildren();
+				for (Category subcategory : children) {
+					CategroiesUsedInFrom.add(new Category(subcategory.getName()));
+					printChildren(subcategory, 1);
+
+				}
+			}
+		}
+
+		return;
+	}
+
+	private void printChildren(Category parent, int sublevel) {
+
+		int newsublevel = sublevel + 1;
+		Set<Category> children = parent.getChildren();
+
+		for (Category subCategory : children) {
+			for (int i = 0; i < newsublevel; i++) {
+
+				System.err.print("---");
+
+			}
+			System.err.println(newsublevel + "nci Seviye : " + subCategory.getName());
+
+			printChildren(subCategory, newsublevel);
+
+		}
+
+	}
+
+}

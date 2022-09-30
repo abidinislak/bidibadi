@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeLeaf.org">
+<head
+	th:replace="fragments :: page_head('Kategoriler..... - BidiBadi Yönetici')"
+/>
+<body>
+	<div class="container-fluid"></div>
+	<div th:replace="navigation :: menu"></div>
+	<div class="container-fluid">
+		<div>test catgeroy</div>
+		<div>
+			<a
+				th:href="@{/category/new}"
+				class="fas fa-user-plus fa-2x icon-dark"
+			> </a>
+		</div>
+		<div
+			th:if="${message != null}"
+			class="alert alert-success text center"
+		>[[${message}]]</div>
+		<div>
+			<div>
+				<table class="table">
+					<thead>
+						<tr>
+							<th scope="col">Category image</th>
+							<th scope="col">Category id</th>
+							<th scope="col">nsame</th>
+							<th scope="col">işlemler</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="category : ${categories}">
+							<td>  
+							<img  src="@{${category.magePAth}}">   </td>
+							<td>[[${category.id}]]</td>
+							<td>[[${category.name}]]</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeLeaf.org" >
+
+<head  th:replace="fragments :: page_head(${pageTitle})"   />
+
+<body>
+
+	<div class="container-fluid">
+
+
+<div th:replace ="navigation :: menu" ></div>
+
+
+		<div>
+
+			<h1>Manage Users - [[${pageTitle}]]</h1>
+
+		</div>
+
+
+		<form th:action="@{/users/save}" method="post"
+			enctype="multipart/form-data"
+			style="max-width: 700px; margin: 0 auto" th:object="${user}"
+			onsubmit="return checkEmailUnique(this);">
+			<input type="hidden" th:field="*{id}" />
+			<div class="border border-secondary rounded  p-3">
+				<div class="form-group row">
+
+					<label class="col-sm-4 col-form-label"> Email</label>
+					<div class="col-sm-8">
+
+						<input type="email" th:field="*{email}" maxlength="128" required
+							minlength="8" class="form-control">
+					</div>
+				</div>
+
+
+				<div class="form-group row">
+
+					<label class="col-sm-4 col-form-label"> İsim</label>
+					<div class="col-sm-8">
+
+						<input type="text" th:field="*{firstname}" maxlength="45" required
+							minlength="2" class="form-control">
+					</div>
+				</div>
+
+				<div class="form-group row">
+
+					<label class="col-sm-4 col-form-label"> Soy İsim</label>
+					<div class="col-sm-8">
+
+						<input type="text" th:field="*{lastname}" maxlength="45" required
+							minlength="2" class="form-control">
+					</div>
+				</div>
+
+
+				<div class="form-group row">
+
+					<label class="col-sm-4 col-form-label">Parola</label>
+					<div class="col-sm-8">
+
+						<input type="password" th:if="${user.id == null} "
+							th:field="*{password}" maxlength="20" required minlength="8"
+							class="form-control"> <input type="password"
+							th:if="${user.id != null} " th:field="*{password}" maxlength="20"
+							minlength="8" class="form-control">
+					</div>
+				</div>
+
+
+
+				<div class="form-group row">
+
+					<label class="col-sm-4 col-form-label">Roles</label>
+					<div class="col-sm-8">
+
+
+						<th:block th:each="role : ${listRoles}">
+
+							<input type="checkbox" th:field="*{roles}" class="m-2"
+								th:text="${role.name}" th:value="${role.id}">
+
+							- <small>[[${role.description}]]</small>
+
+							<br />
+
+
+						</th:block>
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+				</div>
+
+				<div class="form-group row">
+
+					<label class="col-sm-4 col-form-label"> Aktif mi ?</label>
+					<div class="col-sm-8">
+
+
+						<input type="checkbox" th:field="*{enabled}" class="form-control">
+
+
+
+					</div>
+				</div>
+
+
+
+				<div class="form-group row">
+
+					<label class="col-sm-4 col-form-label"> Fotograf</label>
+					<div class="col-sm-8">
+
+						<input type="hidden" th:field="*{Image}" /> <input type="file"
+							name="image" class="mb-2" id="fileImage"
+							accept="image/png, image/jpeg"> <img class="img-fluid"
+							id="thumbnail" alt="Photos preview"
+							th:src="@{/images/images-thumbnail.png}" />
+
+					</div>
+				</div>
+
+
+
+
+
+				<div class="text-center">
+
+					<input type="submit" value="Kaydet" class="btn btn-primary m-3" />
+					<input type="button" value="Vazgeç" class="btn btn-secondary"
+						id="buttonCancel" />
+
+				</div>
+
+
+			</div>
+
+		</form>
+
+	
+	<div th:replace ="modal_fragments :: modal_dialog" ></div>
+	<div th:replace ="fragments :: footer" ></div>
+
+		
+	</div>
+</body>
+
+<script type="text/javascript">
+	moduleURL = "[[@{/users}]]";
+
+	
+	function checkEmailUnique(form) {
+		url = "[[@{/users/check_email}]]";
+		userEmail = $("#email").val();
+		userId = $("#id").val();
+		csrfValue = $("input[name='_csrf']").val();
+
+		params = {
+			id : userId,
+			email : userEmail,
+			_csrf : csrfValue
+		};
+
+		$
+				.post(
+						url,
+						params,
+						function(response) {
+							if (response == "OK") {
+
+								form.submit();
+							} else if (response == "Duplicated") {
+
+								showModalDialog("Dikkat",
+										"UUOOPPSS...  Sanırım bu email kullanılmaktadır : "
+												+ userEmail);
+							} else {
+								showModalDialog("Hata",
+										"UUOOPPSS...  sunucudan kaynaklı bilinmeyen hata");
+							}
+						}).fail(function() {
+					showModalDialog("Hata", "Sunucuya baglantı hatası");
+				});
+
+		return false;
+	}
+
+	function showModalDialog(title, message) {
+
+		$("#modalTitle").text(title);
+		$("#modalBody").text(message);
+
+		$("#modalDialog").modal();
+
+	}
+</script>
+<script type="text/javascript"   th:src="@{/js/common_form.js}"  ></script>
+
+</html>
