@@ -1,0 +1,14 @@
+function clearfilter(){
+	
+	
+	window.location=moduleURL;
+}
+
+
+
+function showDeleteconfirmModal(link,entityName){
+	
+	
+	
+	
+}

@@ -132,6 +132,7 @@ public class Category {
 		copyCategory.setEnabled(category.isEnabled());
 		copyCategory.setAlias(category.getAlias());
 		copyCategory.setImage(category.getImage());
+		copyCategory.setHasChildren(category.getChildren().size() > 0);
 		return copyCategory;
 	}
 
@@ -164,6 +165,10 @@ public class Category {
 
 	@Transient
 	public String getImagePAth() {
+
+		if (this.id == null)
+			return "/images/icategory_priview.png";
+
 		return "/category-images/" + this.id + "/" + this.image;
 
 	}
@@ -173,5 +178,16 @@ public class Category {
 		return "";
 
 	}
+
+	public boolean isHasChildren() {
+		return hasChildren;
+	}
+
+	public void setHasChildren(boolean hasChildren) {
+		this.hasChildren = hasChildren;
+	}
+
+	@Transient
+	private boolean hasChildren;
 
 }

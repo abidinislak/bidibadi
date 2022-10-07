@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeLeaf.org">
+<head
+	th:replace="fragments :: page_head('Kategoriler..... - BidiBadi Yönetici')"
+/>
+<body>
+	<div class="container-fluid"></div>
+	<div th:replace="navigation :: menu"></div>
+	<div class="container-fluid">
+		<div>test catgeroy</div>
+		<div>
+			<a
+				th:href="@{/category/new}"
+				class="fas fa-user-plus fa-2x icon-dark"
+			> </a>
+		</div>
+		<div
+			th:if="${message != null}"
+			class="alert alert-success text center"
+		>[[${message}]]</div>
+		<div>
+			<div>
+				<table class="table">
+					<thead>
+						<tr>
+							<th scope="col">Category image</th>
+							<th scope="col">Category id</th>
+							<th scope="col"    >
+
+<a  th:href="@{'/categories?sortDir='+ ${reverseSortDir}}" >Category Name</a>
+
+</th>
+							<th scope="col">category alias..</th>
+							<th scope="col">işlemler</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="category : ${categories}">
+							<td>  
+							<img th:src="@{${category.imagePAth}}">   </td>
+							<td>[[${category.id}]]</td>
+							<td>[[${category.name}]]</td>
+							<td>[[${category.alias}]]</td>
+							<td>
+							<a th:href="@{'/category/edit/' + ${category.id}}"
+							title="KAtegory güncelle......" class="fas fa-edit fa-2x icon-green">
+							</a>
+							&nbsp;
+<!-- 							 <a th:href="@{'/users/delete/' + ${user.id}}" -->
+<!-- 							th:userId="${user.id}" -->
+<!-- 							class="fas fa-trash fa-2x icon-green Link-delete"></a> -->
+							</td>
+							
+							<td>
+							<a th:if="${category.enabled == true}"
+							class="fas fa-check-circle fa-2x icon-green"
+							th:href="@{'categories/' + ${category.id} + '/enabled/false'   }"></a>
+							
+							
+							
+							 <a
+							th:if="${category.enabled == false}"
+							class="fas fa-circle fa-2x icon-dark"
+							th:href="@{'categories/' + ${category.id} + '/enabled/true'   }"></a>
+							
+							
+							
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

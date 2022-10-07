@@ -1,5 +1,0 @@
-package com.bidibadi.admin.category;
-
-public class CategoryNotFoundException {
-
-}

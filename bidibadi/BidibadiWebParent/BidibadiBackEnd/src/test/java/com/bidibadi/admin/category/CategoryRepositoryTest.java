@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.Replace;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.data.domain.Sort;
 import org.springframework.test.annotation.Rollback;
 
 import com.bidibadi.common.entity.Category;
@@ -101,7 +102,7 @@ public class CategoryRepositoryTest {
 	@Test
 	public void testListCategoryRoot() {
 
-		List<Category> listCategoryRoot = repo.findRootCategories();
+		List<Category> listCategoryRoot = repo.findRootCategories(Sort.by("name").ascending());
 		listCategoryRoot.forEach(x -> System.out.println(x.getName()));
 
 		assertThat(listCategoryRoot.size()).isGreaterThan(0);

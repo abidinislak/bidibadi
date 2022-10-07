@@ -13076,3 +13076,659 @@ java.io.EOFException: null
 2022-10-01 01:03:48,174 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-10-01 01:03:48,174 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-10-01 01:03:48,174 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:14:24,213 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-01 01:17:48,211 [Worker-4: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-01 01:17:48,232 [Worker-4: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-01 01:17:48,380 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:17:48,381 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:17:48,386 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:17:48,415 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:17:48,427 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:17:48,427 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:17:48,427 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:17:48,762 [Worker-4: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-01 01:18:41,691 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:18:41,691 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:18:41,692 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:18:41,709 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:18:41,713 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:18:41,713 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:18:41,713 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:21:51,570 [Worker-9: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:21:51,570 [Worker-9: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:21:51,570 [Worker-9: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:21:51,587 [Worker-9: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-01 01:21:51,589 [Worker-9: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:21:51,589 [Worker-9: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:21:51,589 [Worker-9: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiCommon/src/test/resources
+2022-10-01 01:22:13,291 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:22:13,291 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:22:13,292 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:22:13,298 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-01 01:22:13,300 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:22:13,300 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:22:13,300 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiCommon/src/test/resources
+2022-10-01 01:25:38,517 [Worker-3: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 01:25:38,614 [Worker-3: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 01:25:38,700 [Worker-3: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 01:28:32,227 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:28:32,227 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:28:32,228 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-01 01:28:32,228 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:28:32,229 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:28:32,229 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:28:32,229 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:29:07,398 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:29:07,398 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:29:07,398 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-01 01:29:07,398 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:29:07,400 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:29:07,400 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:29:07,400 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:34:21,584 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:34:21,585 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:34:21,585 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:34:21,602 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:34:21,605 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:34:21,605 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:34:21,605 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:34:26,959 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:34:26,959 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:34:26,960 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:34:26,975 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:34:26,980 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:34:26,980 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:34:26,980 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:36:09,552 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:36:09,552 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:36:09,552 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-01 01:36:09,552 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-01 01:36:09,554 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:36:09,554 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:36:09,554 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:37:41,688 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:37:41,688 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:37:41,689 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:37:41,697 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:37:41,699 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:37:41,700 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:37:41,700 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:38:05,166 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:38:05,166 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:38:05,167 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:38:05,188 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:38:05,190 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:38:05,190 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:38:05,190 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:39:25,959 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:39:25,959 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:39:25,960 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:39:25,976 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:39:25,979 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:39:25,979 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:39:25,979 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:39:47,099 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:39:47,099 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:39:47,099 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:39:47,105 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:39:47,107 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:39:47,107 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:39:47,107 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:43:06,344 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:43:06,345 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:43:06,345 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:43:06,360 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:43:06,362 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:43:06,362 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:43:06,362 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:43:39,869 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:43:39,869 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:43:39,870 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:43:39,891 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:43:39,894 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:43:39,894 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:43:39,894 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:43:49,690 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:43:49,690 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:43:49,690 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:43:49,701 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:43:49,703 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:43:49,704 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:43:49,704 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:50:42,762 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:50:42,763 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:50:42,763 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:50:42,782 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:50:42,785 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:50:42,785 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:50:42,785 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:53:10,862 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:53:10,862 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:53:10,862 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:53:10,868 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:53:10,870 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:53:10,870 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:53:10,870 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:53:16,390 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:53:16,390 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:53:16,391 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:53:16,396 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:53:16,398 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:53:16,398 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:53:16,398 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:54:03,270 [Worker-25: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 01:54:03,346 [Worker-25: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 01:54:03,411 [Worker-25: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 01:58:10,019 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:58:10,019 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:58:10,019 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-01 01:58:10,019 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:58:10,021 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:58:10,021 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:58:10,021 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 01:59:27,163 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:59:27,163 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:59:27,163 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 01:59:27,173 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 01:59:27,175 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 01:59:27,175 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 01:59:27,175 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:00:42,751 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:00:42,751 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:00:42,752 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:00:42,757 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:00:42,759 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:00:42,759 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:00:42,759 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:00:57,393 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:00:57,393 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:00:57,393 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:00:57,399 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:00:57,403 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:00:57,403 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:00:57,403 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:01:11,299 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:01:11,299 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:01:11,299 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:01:11,305 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:01:11,307 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:01:11,307 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:01:11,307 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:03:52,903 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:03:52,903 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:03:52,903 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:03:52,912 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:03:52,914 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:03:52,914 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:03:52,914 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:05:02,706 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:05:02,706 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:05:02,707 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:05:02,717 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:05:02,720 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:05:02,720 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:05:02,720 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:05:25,426 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:05:25,426 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:05:25,426 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:05:25,432 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:05:25,434 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:05:25,434 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:05:25,434 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:06:36,855 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:06:36,855 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:06:36,855 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:06:36,864 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:06:36,874 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:06:36,874 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:06:36,874 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:08:12,501 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:08:12,501 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:08:12,502 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:08:12,510 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:08:12,512 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:08:12,512 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:08:12,512 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:08:18,995 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:08:18,995 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:08:18,996 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:08:19,002 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:08:19,005 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:08:19,005 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:08:19,005 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:08:59,617 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:08:59,617 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:08:59,618 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:08:59,623 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:08:59,625 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:08:59,625 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:08:59,625 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:10:38,457 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:10:38,457 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:10:38,457 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:10:38,466 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:10:38,468 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:10:38,468 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:10:38,468 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:14:07,733 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:14:07,733 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:14:07,734 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:14:07,748 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:14:07,751 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:14:07,751 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:14:07,751 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:15:12,591 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:15:12,592 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:15:12,592 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:15:12,598 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:15:12,600 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:15:12,600 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:15:12,600 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:16:13,172 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:16:13,172 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:16:13,173 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:16:13,180 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:16:13,182 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:16:13,182 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:16:13,182 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:16:29,677 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:16:29,677 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:16:29,678 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:16:29,685 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:16:29,687 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:16:29,687 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:16:29,687 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:17:27,787 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:17:27,787 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:17:27,788 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:17:27,793 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:17:27,795 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:17:27,795 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:17:27,795 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:22:11,585 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:22:11,585 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:22:11,585 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-01 02:22:11,585 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:22:11,587 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:22:11,587 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:22:11,587 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:23:25,729 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:23:25,729 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:23:25,730 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:23:25,739 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-01 02:23:25,740 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:23:25,740 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:23:25,740 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:23:31,391 [Worker-28: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 02:23:31,457 [Worker-28: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 02:23:31,538 [Worker-28: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 02:28:27,372 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:28:27,373 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:28:27,373 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-01 02:28:27,373 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:28:27,375 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:28:27,375 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:28:27,375 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:28:34,102 [Worker-38: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 02:28:34,163 [Worker-38: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 02:28:34,239 [Worker-38: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 02:28:42,108 [Worker-45: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 02:28:42,173 [Worker-45: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 02:28:42,245 [Worker-45: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 02:30:20,061 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:30:20,061 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:30:20,061 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-01 02:30:20,061 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-01 02:30:20,062 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-01 02:30:20,062 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-01 02:30:20,063 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-01 02:30:22,879 [Worker-28: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 02:30:22,943 [Worker-28: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-01 02:30:23,012 [Worker-28: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:27:01,929 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-03 00:27:04,903 [Worker-4: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-03 00:27:04,939 [Worker-4: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-03 00:27:05,199 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:27:05,199 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:27:05,203 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 00:27:05,228 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-03 00:27:05,249 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:27:05,249 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:27:05,249 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 00:27:05,727 [Worker-4: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-03 00:30:03,235 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:30:03,235 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:30:03,236 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 00:30:03,260 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-03 00:30:03,263 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:30:03,263 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:30:03,263 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 00:31:18,394 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:31:18,394 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:31:18,395 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 00:31:18,411 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-03 00:31:18,415 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:31:18,415 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:31:18,415 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 00:31:34,682 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @281951ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-03 00:31:34,761 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.37.v20210219; built: 2021-02-23T06:49:41.320Z; git: 27afab2bd37780d179836e313e0fe11bc4fa0ce9; jvm 15.0.2+7-27
+2022-10-03 00:31:34,779 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2022-10-03 00:31:34,780 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2022-10-03 00:31:34,781 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2022-10-03 00:31:34,800 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2105781c{/help,null,AVAILABLE}
+2022-10-03 00:31:34,807 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@48d4eaa2{HTTP/1.1, (http/1.1)}{127.0.0.1:46223}
+2022-10-03 00:31:34,807 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @282076ms
+2022-10-03 00:31:34,807 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2022-10-03 00:32:02,167 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:32:02,167 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:32:02,167 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 00:32:02,188 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-03 00:32:02,198 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:32:02,198 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:32:02,198 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 00:34:12,107 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:34:12,107 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:34:12,108 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 00:34:12,123 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-03 00:34:12,128 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:34:12,128 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:34:12,128 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 00:39:03,981 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:39:03,981 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:39:03,982 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 00:39:03,994 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-03 00:39:03,996 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:39:03,998 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:39:03,998 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 00:42:23,113 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:42:23,114 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:42:23,115 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-03 00:42:23,115 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 00:42:23,116 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:42:23,116 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:42:23,116 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 00:42:37,767 [Worker-4: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:42:37,853 [Worker-4: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:42:37,937 [Worker-4: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:43:18,448 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:43:18,448 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:43:18,448 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-03 00:43:18,448 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 00:43:18,451 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:43:18,451 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:43:18,451 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 00:43:23,170 [Worker-0: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:43:23,241 [Worker-0: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:43:23,311 [Worker-0: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:44:21,909 [Worker-14: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:44:21,974 [Worker-14: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:44:22,032 [Worker-14: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:45:51,892 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:45:51,892 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:45:51,893 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 00:45:51,904 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-03 00:45:51,908 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:45:51,908 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:45:51,908 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 00:45:55,484 [Worker-21: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:45:55,579 [Worker-21: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:45:55,642 [Worker-21: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:48:12,895 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:48:12,895 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:48:12,896 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 00:48:12,912 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-03 00:48:12,914 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:48:12,914 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:48:12,914 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 00:48:20,722 [Worker-13: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:48:20,797 [Worker-13: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:48:20,880 [Worker-13: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:48:43,906 [Worker-18: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:48:43,969 [Worker-18: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:48:44,026 [Worker-18: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 00:50:29,640 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:50:29,640 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:50:29,640 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 00:50:29,648 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-03 00:50:29,650 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:50:29,650 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:50:29,650 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 00:50:34,061 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:50:34,062 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:50:34,062 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 00:50:34,067 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-03 00:50:34,070 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 00:50:34,070 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 00:50:34,070 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 23:55:18,436 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-03 23:55:21,981 [Worker-4: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-03 23:55:22,014 [Worker-4: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-03 23:55:22,289 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 23:55:22,289 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 23:55:22,291 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-03 23:55:22,306 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-03 23:55:22,342 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 23:55:22,342 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 23:55:22,342 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 23:55:22,755 [Worker-4: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-03 23:56:47,608 [Worker-11: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 23:56:47,608 [Worker-11: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 23:56:47,609 [Worker-11: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-03 23:56:47,609 [Worker-11: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-10-03 23:56:47,611 [Worker-11: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-03 23:56:47,611 [Worker-11: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-03 23:56:47,611 [Worker-11: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-03 23:56:47,794 [Worker-11: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 23:56:47,901 [Worker-11: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 23:56:47,990 [Worker-11: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 23:59:09,468 [Worker-3: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 23:59:09,554 [Worker-3: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-03 23:59:09,638 [Worker-3: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:00:25,746 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:00:25,746 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:00:25,748 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:00:25,760 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-04 00:00:25,763 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:00:25,763 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:00:25,763 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 00:00:56,730 [Worker-10: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:00:56,805 [Worker-10: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:00:56,876 [Worker-10: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:00:58,065 [Worker-15: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:00:58,139 [Worker-15: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:00:58,218 [Worker-15: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:01:17,066 [Worker-10: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:01:17,127 [Worker-10: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:01:17,191 [Worker-10: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:01:18,364 [Worker-10: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:01:18,434 [Worker-10: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:01:18,493 [Worker-10: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-04 00:23:21,435 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @1690812ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-04 00:23:21,509 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.37.v20210219; built: 2021-02-23T06:49:41.320Z; git: 27afab2bd37780d179836e313e0fe11bc4fa0ce9; jvm 15.0.2+7-27
+2022-10-04 00:23:21,521 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2022-10-04 00:23:21,521 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2022-10-04 00:23:21,522 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2022-10-04 00:23:21,537 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29a0b617{/help,null,AVAILABLE}
+2022-10-04 00:23:21,545 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@25983167{HTTP/1.1, (http/1.1)}{127.0.0.1:38667}
+2022-10-04 00:23:21,546 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @1690922ms
+2022-10-04 00:23:21,546 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 726000ms
+2022-10-04 00:25:17,257 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:25:17,257 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:25:17,257 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:25:17,266 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-04 00:25:17,268 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:25:17,268 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:25:17,268 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiCommon/src/test/resources
+2022-10-04 00:25:30,882 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:25:30,882 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:25:30,882 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:25:30,887 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-04 00:25:30,889 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:25:30,889 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:25:30,889 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiCommon/src/test/resources
+2022-10-04 00:26:42,534 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:26:42,535 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:26:42,535 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:26:42,544 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-04 00:26:42,545 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:26:42,545 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:26:42,545 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiCommon/src/test/resources
+2022-10-04 00:32:22,748 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:32:22,748 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:32:22,749 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:32:22,757 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-04 00:32:22,760 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:32:22,760 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:32:22,760 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 00:32:37,154 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:32:37,154 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:32:37,154 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:32:37,163 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-04 00:32:37,166 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:32:37,166 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:32:37,166 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 00:34:46,748 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:34:46,749 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:34:46,749 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:34:46,756 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-04 00:34:46,758 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:34:46,758 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:34:46,758 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 00:34:58,358 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:34:58,358 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:34:58,358 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:34:58,369 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-04 00:34:58,371 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:34:58,371 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:34:58,371 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 00:41:59,309 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:41:59,309 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:41:59,309 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:41:59,320 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-04 00:41:59,322 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:41:59,322 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:41:59,322 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 00:45:23,340 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:45:23,340 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:45:23,341 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:45:23,349 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-04 00:45:23,351 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:45:23,351 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:45:23,351 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 00:45:53,734 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:45:53,734 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:45:53,734 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:45:53,740 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-10-04 00:45:53,742 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:45:53,742 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:45:53,742 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 00:52:54,597 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:52:54,598 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:52:54,598 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-04 00:52:54,598 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:52:54,599 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:52:54,599 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:52:54,599 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 00:57:10,722 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:57:10,723 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:57:10,723 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-04 00:57:10,723 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:57:10,724 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:57:10,724 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:57:10,724 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 00:57:52,840 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:57:52,840 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:57:52,840 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-04 00:57:52,841 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:57:52,843 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:57:52,843 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:57:52,843 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 00:58:39,880 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:58:39,881 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:58:39,881 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-04 00:58:39,881 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 00:58:39,883 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 00:58:39,883 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 00:58:39,883 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 01:00:15,571 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 01:00:15,571 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 01:00:15,571 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-04 01:00:15,572 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-04 01:00:15,573 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 01:00:15,573 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-04 01:00:15,573 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-04 01:00:31,283 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@25983167{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2022-10-04 01:00:31,283 [Stop Help Server] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+2022-10-04 01:00:31,286 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29a0b617{/help,null,STOPPED}
+2022-10-05 02:57:08,097 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-05 03:06:47,693 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-05 03:16:00,566 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:16:00,566 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:16:00,568 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-05 03:16:00,579 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-05 03:16:00,582 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:16:00,582 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:16:00,582 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiCommon/src/test/resources
+2022-10-05 03:16:01,457 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-05 03:16:01,475 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-05 03:16:01,483 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:16:01,483 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:16:01,484 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-05 03:16:01,487 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 37 resources
+2022-10-05 03:16:01,520 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:16:01,520 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:16:01,520 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-05 03:16:01,723 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-05 03:16:01,731 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-05 03:16:01,735 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:16:01,735 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:16:01,735 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-05 03:16:01,736 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-05 03:16:01,737 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:16:01,737 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:16:01,737 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiFrontEnd/src/test/resources
+2022-10-05 03:16:01,850 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier  to /BidibadiCommon/target/classes
+2022-10-05 03:20:08,573 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:20:08,574 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:20:08,575 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-05 03:20:08,575 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-05 03:20:08,576 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:20:08,576 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:20:08,576 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-05 03:20:10,637 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:20:10,637 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:20:10,638 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-05 03:20:10,638 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-05 03:20:10,640 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:20:10,640 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:20:10,640 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-05 03:20:13,985 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:20:13,986 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:20:13,986 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-05 03:20:13,986 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-05 03:20:13,988 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:20:13,988 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:20:13,988 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-05 03:21:38,972 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:21:38,972 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:21:38,972 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-05 03:21:38,972 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-05 03:21:38,974 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:21:38,974 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:21:38,974 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-05 03:21:42,375 [Worker-4: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-05 03:21:42,474 [Worker-4: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-05 03:21:42,548 [Worker-4: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-05 03:23:22,859 [Worker-12: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-05 03:23:22,933 [Worker-12: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-05 03:23:22,998 [Worker-12: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-05 03:35:52,265 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:35:52,265 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:35:52,265 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-05 03:35:52,266 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-05 03:35:52,269 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-05 03:35:52,269 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-05 03:35:52,269 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/relax/Desktop/bidibadi/bidibadi/BidibadiWebParent/BidibadiBackEnd/src/test/resources
+2022-10-05 03:35:55,047 [Worker-23: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-05 03:35:55,135 [Worker-23: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes
+2022-10-05 03:35:55,218 [Worker-23: Launching BidibadiBackEnd - BidibadiBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BidibadiCommon: com.bidibadi:BidibadiCommon:0.0.1-SNAPSHOT with classifier null to /BidibadiCommon/target/classes

@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.websocket.server.PathParam"/>
-    <fullyQualifiedTypeName name="com.fasterxml.jackson.core.sym.Name"/>
-    <fullyQualifiedTypeName name="com.bidibadi.admin.user.UserNotFoundException"/>
-    <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
-    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Modifying"/>
-    <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
     <fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
-    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
-    <fullyQualifiedTypeName name="java.nio.file.Files"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="java.nio.file.Path"/>
     <fullyQualifiedTypeName name="java.nio.file.StandardCopyOption"/>
@@ -22,7 +13,6 @@
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="com.bidibadi.common.entity.Role"/>
     <fullyQualifiedTypeName name="org.springframework.security.core.authority.SimpleGrantedAuthority"/>
     <fullyQualifiedTypeName name="com.bidibadi.admin.user.UserRepository"/>
@@ -38,13 +28,8 @@
     <fullyQualifiedTypeName name="com.bidibadi.admin.security.BidiBadiUserDetails"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="com.bidibadi.common.entity.User"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
     <fullyQualifiedTypeName name="org.hibernate.id.IntegralDataTypeHolder"/>
     <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
-    <fullyQualifiedTypeName name="com.bidibadi.admin.category.CategoryNotFoundException"/>
-    <fullyQualifiedTypeName name="com.bidibadi.admin.FileUploadUtil"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.extension.ExtendWith"/>
     <fullyQualifiedTypeName name="org.mockito.junit.jupiter.MockitoExtension"/>
     <fullyQualifiedTypeName name="org.springframework.test.context.junit.jupiter.SpringExtension"/>
@@ -53,11 +38,26 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="org.mockito.Mockito"/>
     <fullyQualifiedTypeName name="org.mockito.InjectMocks"/>
-    <fullyQualifiedTypeName name="com.bidibadi.common.entity.Category"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.bidibadi.admin.category.controller.CategoryService"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Sort"/>
+    <fullyQualifiedTypeName name="java.util.SortedSet"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="com.bidibadi.common.entity.Category"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="org.springframework.data.repository.query.Param"/>
+    <fullyQualifiedTypeName name="javax.persistence.Transient"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.bidibadi.admin.FileUploadUtil"/>
+    <fullyQualifiedTypeName name="java.nio.file.Files"/>
+    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
+    <fullyQualifiedTypeName name="com.bidibadi.admin.category.CategoryNotFoundException"/>
 </qualifiedTypeNameHistroy>

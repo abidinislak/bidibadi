@@ -98,9 +98,16 @@
 						<td>[[${user.firstname}]]</td>
 						<td>[[${user.lastname}]]</td>
 						<td>[[${user.roles}]]</td>
-						<td><a th:if="${user.enabled == true}"
+						<td>
+						
+						<a th:if="${user.enabled == true}"
 							class="fas fa-check-circle fa-2x icon-green"
-							th:href="@{'users/' + ${user.id} + '/enabled/false'   }"></a> <a
+							th:href="@{'users/' + ${user.id} + '/enabled/false'   }"></a> 
+							
+							
+							
+							
+							<a
 							th:if="${user.enabled == false}"
 							class="fas fa-circle fa-2x icon-dark"
 							th:href="@{'users/' + ${user.id} + '/enabled/true'   }"></a></td>
@@ -216,6 +223,7 @@
 			</div>
 
 		</div>
+	<div th:replace ="fragments :: footer" ></div>
 
 	</div>
 

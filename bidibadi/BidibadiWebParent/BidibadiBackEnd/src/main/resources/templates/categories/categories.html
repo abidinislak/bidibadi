@@ -4,7 +4,7 @@
 	th:replace="fragments :: page_head('Kategoriler..... - BidiBadi Yönetici')"
 />
 <body>
-	<div class="container-fluid"></div>
+	<div class="container-fluid">
 	<div th:replace="navigation :: menu"></div>
 	<div class="container-fluid">
 		<div>test catgeroy</div>
@@ -25,7 +25,12 @@
 						<tr>
 							<th scope="col">Category image</th>
 							<th scope="col">Category id</th>
-							<th scope="col">nsame</th>
+							<th scope="col"    >
+
+<a  th:href="@{'/categories?sortDir='+ ${reverseSortDir}}" >Category Name</a>
+
+</th>
+							<th scope="col">category alias..</th>
 							<th scope="col">işlemler</th>
 						</tr>
 					</thead>
@@ -35,6 +40,7 @@
 							<img th:src="@{${category.imagePAth}}">   </td>
 							<td>[[${category.id}]]</td>
 							<td>[[${category.name}]]</td>
+							<td>[[${category.alias}]]</td>
 							<td>
 							<a th:href="@{'/category/edit/' + ${category.id}}"
 							title="KAtegory güncelle......" class="fas fa-edit fa-2x icon-green">
@@ -45,7 +51,24 @@
 <!-- 							class="fas fa-trash fa-2x icon-green Link-delete"></a> -->
 							</td>
 							
+							<td>
+							<a th:if="${category.enabled == true}"
+							class="fas fa-check-circle fa-2x icon-green"
+							th:href="@{'categories/' + ${category.id} + '/enabled/false'   }"></a>
 							
+							
+							
+							 <a
+							th:if="${category.enabled == false}"
+							class="fas fa-circle fa-2x icon-dark"
+							th:href="@{'categories/' + ${category.id} + '/enabled/true'   }"></a>
+							
+							<th:block   th:if="${category.hasChildren ==false}"   >
+							
+							<a   class="fas fa-trash fa-2x icon-dark link-delete" th:href="@{'/categories/delete/'+${category.id}}"  th:entityId="${category.id}" title="Delete this category" ></a>
+							
+							
+							</th:block>
 							
 							
 							
@@ -55,6 +78,15 @@
 				</table>
 			</div>
 		</div>
+	</div>
+	
+		<div th:replace ="modal_fragmnets :: confirm_modal" ></div>
+	
+		<div th:replace ="fragments :: footer" ></div>
+	
+	
+	
+	
 	</div>
 </body>
 </html>
